@@ -1,0 +1,61 @@
+import React from 'react'
+
+function Footer() {
+  return (
+    <footer>
+         <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-light mb-4">Address</h3>
+                    <p class="mb-2 text-secondary"><i class="fa fa-map-marker-alt text-brown me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2 text-secondary"><i class="fa fa-phone-alt text-brown me-3"></i>+012 345 67890</p>
+                    <p class="mb-2 text-secondary"><i class="fa fa-envelope text-brown me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-warning me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-warning me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-warning me-1" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-warning me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-light mb-4">Services</h3>
+                    <a class="btn btn-link" href="">Architecture</a>
+                    <a class="btn btn-link" href="">3D Animation</a>
+                    <a class="btn btn-link" href="">House Planning</a>
+                    <a class="btn btn-link" href="">Interior Design</a>
+                    <a class="btn btn-link" href="">Construction</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-light mb-4">Quick Links</h3>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="text-white mb-4">Newsletter</h3>
+                    <p class="text-secondary">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style={{maxWidth: "400px"}}>
+                        <input class="form-control bg-transparent w-100 py-3 text-white ps-4 pe-5" type="text" placeholder="Your email"/>
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row mx-auto justify-content-center">
+                    <div class="col-md-6 text-center text-white d-flex justify-content-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">and-lim</a>, All Right Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+  )
+}
+
+export default Footer
