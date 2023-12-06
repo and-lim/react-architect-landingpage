@@ -1,3 +1,9 @@
+## Screenshots
+![react-architect](https://github.com/and-lim/react-architect-landingpage/assets/100760781/62a6b347-f552-49e7-b61e-a249a1db60d8)
+&nbsp;
+![react-architect-about](https://github.com/and-lim/react-architect-landingpage/assets/100760781/fe4f41b1-4ccc-4f58-a283-f806bd0f85bd)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
